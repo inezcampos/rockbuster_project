@@ -10,4 +10,4 @@ The rockbuster project is developed in the context of the Career Foundry data an
 The open-source data tutorial from PostgreSQL is available [here](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
 ## Results
 Rental sales vary geographically, with clients from North America, South America, South Asia and West Asia spending more on movie rentals. 
-The Map of the [Top Countries for Rockbuster's Customers] (https://public.tableau.com/shared/B54NW4KJK?:display_count=n&:origin=viz_share_link) illustrates these findings.
+The Map of the [Top Countries for Rockbuster's Customers](https://public.tableau.com/shared/B54NW4KJK?:display_count=n&:origin=viz_share_link) illustrates these findings.
