@@ -1,5 +1,6 @@
-# Examples of Join Queries
-## Join query to find the top 10 countries in terms of number of customers
+
+/* Examples of Join Queries */
+/* Join query to find the top 10 countries in terms of number of customers*/
 SELECT D.country,
       COUNT(A.customer_id)AS number_customers
 FROM customer A
@@ -9,7 +10,7 @@ INNER JOIN country D ON C.country_ID = D.country_ID
 GROUP BY country
 ORDER BY number_customers desc
 LIMIT 10
-## Join query too find the top 5 customers in the top 10 cities who paid the highest amounts to Rockbuster
+/* Join query too find the top 5 customers in the top 10 cities who paid the highest amounts to Rockbuster */
 SELECT B.customer_id,
        B.first_name,
 	   B.last_name,
