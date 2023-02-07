@@ -1,4 +1,4 @@
-#Queries to clean and summarize data
+# Queries to clean and summarize data
 ## Looking for duplicates in Film Table:
 SELECT title,
        release_year,
@@ -11,7 +11,7 @@ GROUP BY title,
          language_id,
          rental_duration
 HAVING COUNT (*) >1
-##Looking for missing values and non-uniform data: 
+## Looking for missing values and non-uniform data: 
 SELECT title,
        release_year,
        language_id,
@@ -25,7 +25,7 @@ GROUP BY title,
          rental_duration,
 		 replacement_cost,
 		 rating;
-##Looking for duplicates
+## Looking for duplicates
 SELECT customer_id,
        store_id,
        first_name,
@@ -51,7 +51,7 @@ SELECT DISTINCT customer_id,
 	            email,
 	   activebool
 FROM customer
-##Summarize data
+## Summarize data
 SELECT MIN (film_id) AS minimum_film_id, MIN (release_year) AS minimum_release_year, MIN (language_id)AS minimum_language, MIN(rental_duration) AS rental_duration,
        MIN (rental_rate) AS minimum_rental_rate, MIN (length)AS minimum_length, MIN (replacement_cost) AS minimum_replacement_cost
 	   FROM film
